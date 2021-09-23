@@ -2,18 +2,17 @@ score = input("Enter Score: ")
 sc = float(score)
 if sc < 0.6:
   print ("F")
-    if sc >= 0.6:
-      sc < 0.7
-      print ("D")
-if sc >= 0.7:
-  sc < 0.8
+if 0.6 < sc <= 0.7:
+  print ("D")
+if 0.7 < sc <= 0.8:
   print ("C")
-if sc >= 0.8:
-  sc < 0.9
+if 0.8 < sc <= 0.9:
   print ("B")
-if sc >= 0.9:
-  sc < 1
+if 0.9 < sc <= 1.0:
   print ("A")
+if sc > 1:
+  print ("Try again")
+
 
 
 
